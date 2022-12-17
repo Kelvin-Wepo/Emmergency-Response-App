@@ -13,9 +13,8 @@
                 {%csrf_token%}
 
                 {% bootstrap_form form %}
-                <input type="submit" class="btn btn-outline-info btn-sm" value="Save Profile changes">
-                <a href="{% url 'home' %}"><button type="button" class="btn btn-outline-info btn-sm"><i
-                            class="fa-solid fa-angles-left"></i>Back Home</button></a>
+                <input type="submit" class="btn  btn-sm" value="Save Profile changes">
+                <a href="{% url 'home' %}"><button type="button" class="btn btn-sm">Back Home</button></a>
             </form>
         </div>
     </div>
