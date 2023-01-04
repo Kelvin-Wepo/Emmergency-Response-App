@@ -1,0 +1,197 @@
+{% extends 'public/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid">
+  <div id="carouselExampleTouch" class="carousel slide" data-mdb-touch="false">
+    <div class="carousel-indicators">
+      <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-mdb-interval="2000">
+        <img
+          src="https://cdn.pixabay.com/photo/2020/07/08/14/40/almaty-5384128__340.jpg"
+          class="d-block w-100 img" alt="" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="black">FIRST AID TIP</h5>
+          <p class="black">Necessary supplies should be close at hand. You’ll require<br> bandages, gauzes, thermometer, cotton wool, antacid,<br>scissors etc. </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-mdb-interval="5000">
+        <img
+          src="https://cdn.pixabay.com/photo/2020/03/27/22/40/emergency-medical-services-4975221_960_720.jpg"
+          class="d-block img" alt="" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>FIRST AID TIP</h5>
+          <p>Applying ice blocks, you can help people with sprains. If the<br>swelling doesn’t improve, specialized care will be required.  </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-mdb-interval="1000">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/05/15/43/ambulance-2920909__340.jpg"
+          class="d-block img" alt="" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="green">FIRST AID TIP</h5>
+          <p class="green">
+            Diarrhoea leads to rapid dehydration. The primary target<br> would be to rehydrate the person who is suffering. Anti<br>-diarrhoea medication is helpful in this case. </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <div class="row">
+      <div class="row">
+        <h4 class="text-center text-warning fs-2"> Featured Services</h4>
+      </div>
+      <div class="row">
+        <p class="text-center text-white">What our owners offer</p>
+      </div>
+      <div class="row p-4">
+        <div class="col-md-4 text-center mb-5">
+          <p>
+            <i class="fa-solid fa-truck-medical"></i>
+          </p>
+          <p class="fs-4 text-white">Patient Transport Ambulance</p>
+        </div>
+        <div class="col-md-4 text-center  mb-4">
+          <p>
+            <i class="fa-solid fa-truck-monster fa-3x text-warning"></i>
+          </p>
+          <p class="fs-4 text-white">Mortuary Ambulance</p>
+        </div>
+        <div class="col-md-4 text-center  mb-4">
+          <p>
+            <i class="fa-sharp fa-solid fa-stretcher"></i>
+          </p>
+          <p class="fs-4 text-warning">Neonatal Ambulance</p>
+        </div>
+        <div class="col-md-4 text-center  mb-4">
+          <p>
+            <i class="fa-sharp fa-solid fa-kit-medical"></i>
+          </p>
+          <p class="fs-4 text-white">Air Ambulance</p>
+        </div>
+        <div class="col-md-4 text-center  mb-4">
+          <p>
+            <i class="fa-sharp fa-solid fa-light-emergency-on"></i>
+          </p>
+          <p class="fs-4 text-white">Ambulance Services</p>
+        </div>
+        <div class="col-md-4 text-center  mb-4">
+          <p>
+            <i class="fa-solid fa-money-bill-1-wave fa-3x text-white"></i>
+          </p>
+          <p class="fs-4 text-warning">Low service Pay-Rate</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-lg-4 col-md-12 mb-4">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img
+            src="https://i.pinimg.com/236x/9d/37/e8/9d37e8366b48bdefbf63ec66f3d55b46.jpg"
+            class="img-fluid" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Patient transport services</h5>
+          <p class="card-text">
+            We offer Patient Transport services at an affordable price.
+          </p>
+          <a href="#!" class="btn btn-warning">View More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://montezumamonalisa.com/wp-content/uploads/2020/01/DSC_4132-min-1536x817.jpg" class="img-fluid" alt="" id="image2" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Mortuary Services</h5>
+          <p class="card-text">
+            Let your loved ones travel in style.
+          </p>
+          <a href="#!" class="btn btn-warning">View More</a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="https://thumbs.dreamstime.com/b/rescue-helicopter-side-view-isolated-white-background-red-medical-evacuation-ambulance-healthcare-hospital-diagnostics-203219620.jpg" class="img-fluid" id="image2" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Air Ambulance</h5>
+          <p class="card-text">
+            Have a better option to transport patience from remote Areas Hire with us.
+          </p>
+          <a href="#!" class="btn btn-warning">View More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-4 ">
+    <h3 id="clients">WHAT OUR CUSTOMERS SAY</h3>
+    {% for comment in comments %}
+    <div class="col-md-3 mx-auto" >
+      <div class="card p-4"id="comment-card" >
+        <p class="card-title text-white">{{comment.user_name}}</p>
+        <p class="text-warning">"{{comment.content}}"</p>
+        <a class="btn btn-outline-warning btn-sm mb-3" id="c">
+          <h3>{{comment.rating }}</h3>
+          <span class="sc">My service Rate</span>
+      </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!--Section: Content-->
+  <div class="row" id="subscribe-form">
+    <div class="col-md-6 mx-auto">
+      <section class="subscribe">
+        <form class="feedback-form" action="" method="POST">
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Name</label>
+          </div>
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="email" class="form-control" name="email" />
+            <label class="form-label" for="form4Example2">Email address</label>
+          </div>
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4" name="feedback"></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
+          </div>
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4 fs-5">Send <i
+              class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+{% endblock content %}
