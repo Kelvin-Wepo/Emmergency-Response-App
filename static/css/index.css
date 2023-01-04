@@ -6,14 +6,12 @@
     /* font-family: 'Chakra Petch', sans-serif; */
     /* font-family: 'Gentium Plus', serif; */
     font-family: 'Times New Roman', Times, serif;
-    overflow-x: hidden;
 }
-
 .hero{
     background-color: #133831;
     border-radius: 100% 0% 100% 0% / 66% 100% 0% 34%  ;
 }
- /* #336895 */
+ #336895
 #register-btn{
     font-weight: 900;
     font-size: 3vh;
